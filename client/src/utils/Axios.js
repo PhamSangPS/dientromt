@@ -2,8 +2,8 @@ import axios from "axios";
 import SummaryApi , { baseURL } from "../common/SummaryApi";
 
 const Axios = axios.create({
-    
-    Credentials : true
+    baseURL : baseURL,
+    withCredentials : true
 })
 
 //sending access token in the header
