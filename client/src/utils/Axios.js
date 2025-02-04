@@ -3,7 +3,7 @@ import SummaryApi , { baseURL } from "../common/SummaryApi";
 
 const Axios = axios.create({
     baseURL : 'https://dientromt.onrender.com',
-    withCredentials : true
+    Credentials : true
 })
 
 //sending access token in the header
