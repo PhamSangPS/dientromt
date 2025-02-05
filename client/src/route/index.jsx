@@ -22,11 +22,6 @@ import Cancel from "../pages/Cancel";
 
 const router = createBrowserRouter([
     {
-        path: "*" ,
-         children : [{
-                path : "",
-                element : <Home/>
-            },
         path : "/",
         element : <App/>,
         children : [
