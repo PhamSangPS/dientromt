@@ -69,7 +69,7 @@ const Header = () => {
                                             width={80}
                                             height={60}
                                             alt='logo'
-                                            className='hidden lg:block'
+                                            
                                         />
                                         <h3>Điện Trở MT</h3>
                                     </Link>
