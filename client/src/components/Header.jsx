@@ -116,7 +116,7 @@ const Header = () => {
                                                     
                                                 </div>
                                             ) : (
-                                                <button onClick={redirectToLoginPage} className='text-lg px-2'></button>
+                                                <button onClick={redirectToLoginPage} className='text-lg px-2'>         </button>
                                             )
                                         }
                                         
