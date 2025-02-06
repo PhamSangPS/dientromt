@@ -131,7 +131,7 @@ const ProductDisplayPage = () => {
             <p className=''>{data.unit}</p> 
             <Divider/>
             <div>
-              <p className=''>Price</p> 
+              <p className=''>Giá Chỉ</p> 
               <div className='flex items-center gap-2 lg:gap-4'>
                 <div className='border border-green-600 px-4 py-2 rounded bg-green-50 w-fit'>
                     <p className='font-semibold text-lg lg:text-xl'>{DisplayPriceInRupees(pricewithDiscount(data.price,data.discount))}</p>
