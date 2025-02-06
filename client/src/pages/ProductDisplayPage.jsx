@@ -104,7 +104,7 @@ const ProductDisplayPage = () => {
 
             <div className='my-4  hidden lg:grid gap-3 '>
                 <div>
-                    <p className='font-semibold'>Description</p>
+                    <p className='font-semibold'>Chi Tiết Sản Phẩm</p>
                     <p className='text-base'>{data.description}</p>
                 </div>
                 <div>
@@ -143,7 +143,7 @@ const ProductDisplayPage = () => {
                 }
                 {
                   data.discount && (
-                    <p className="font-bold text-green-600 lg:text-2xl">{data.discount}% <span className='text-base text-neutral-500'>Discount</span></p>
+                    <p className="font-bold text-green-600 lg:text-2xl">{data.discount}% <span className='text-base text-neutral-500'>Giảm Giá</span></p>
                   )
                 }
                 
