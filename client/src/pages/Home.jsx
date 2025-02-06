@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../assets/baner.png'
-import bannerMobile from '../assets/banner-mobile.jpg'
+import bannerMobile from '../assets/baner.png'
 import { useSelector } from 'react-redux'
 import { valideURLConvert } from '../utils/valideURLConvert'
 import {Link, useNavigate} from 'react-router-dom'
