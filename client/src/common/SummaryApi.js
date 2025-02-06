@@ -1,4 +1,4 @@
-export const baseURL = 'https://dientromt.onrender.com'
+export const baseURL = 'dientromt-d3vf.vercel.app'
 
 const SummaryApi = {
     login : {
