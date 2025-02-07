@@ -1,4 +1,4 @@
-export const baseURL = 'https://dientromt.onrender.com'
+export const baseURL = 'http://localhost:8080/'
 
 const SummaryApi = {
     login : {
